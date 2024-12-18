@@ -4,6 +4,7 @@ import openai
 import PyPDF2
 from PyPDF2 import PdfReader
 
+
 #configurações API
 openai.api_key = os.getenv('OPENAI_API_KEY')
 

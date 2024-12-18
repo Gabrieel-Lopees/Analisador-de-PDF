@@ -5,7 +5,7 @@ import PyPDF2
 from PyPDF2 import PdfReader
 
 #configurações API
-openai.api_key = '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'
+openai.api_key = os.getenv('OPENAI_API_KEY')
 
 # receber um PDF
 def extract_text_from_pdf(pdf_path):
